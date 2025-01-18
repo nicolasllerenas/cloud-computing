@@ -1,0 +1,4 @@
+SELECT * FROM "universidad"."alumnos" order by alumno_id;
+SELECT * FROM "universidad"."alumnos" where state = 'NY';
+SELECT * FROM "universidad"."alumnos" where birthday >= '2004';
+SELECT substr(birthday,1,4) as year, count(*) as alumnos FROM "universidad"."alumnos" group by 1 order by 1 desc;

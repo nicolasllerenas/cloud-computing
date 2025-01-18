@@ -1,0 +1,4 @@
+SELECT * FROM s3object s
+SELECT * FROM s3object s WHERE s.alumno_id = '2'
+SELECT * FROM s3object s WHERE s.birthday >= '2004'
+SELECT * FROM s3object s WHERE s.state = 'NY'
